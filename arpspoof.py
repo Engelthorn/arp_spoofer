@@ -45,7 +45,7 @@ def reset(target_ip, router_ip):
 
 
 def run(interface, target, router):
-    """Run script. Automatically activates ip_forwarding after running and deactivate after stopping."""
+    """Run script. Automatically activates ip_forwarding after running and deactivates after stopping."""
     print(f"--------------------------------------------------"
           f"\n[!] Using interface: {interface}"
           f"\n[!] Target's IP: {target}"
